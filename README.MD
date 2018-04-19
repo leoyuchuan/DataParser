@@ -14,10 +14,15 @@ pandas, sqlite3, sys
 
 ## How to use
 1. For help:
+
    ``$ python DataParser.py -h``
+
 2. For parsing:
+
    ``$ python DataParser.py[ <input_path> <output_path> <table_name>]``
+
    Example:
       * ``$ python DataParser.py``
+
       * ``$ python DataParser.py http://www.zurionlinestore.com/sites/all/modules/zurionlinestore/files/google/googlebase.txt result.db googlebase``
 
